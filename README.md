@@ -71,7 +71,7 @@ with open(log_file, "r", encoding="utf-8") as f:
             ports_accessed[ip].add(port)
 
 # Afficher les IPs ayant généré le plus de requêtes
-print("\n🔍 Rapport des IPs suspectes :")
+print("\n Rapport des IPs suspectes :")
 for ip, count in sorted(ip_hits.items(), key=lambda x: x[1], reverse=True):
     print(f"{ip} - {count} requêtes sur ports {', '.join(sorted(ports_accessed[ip]))}")
 ```

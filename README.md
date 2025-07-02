@@ -1,4 +1,4 @@
-# TP – Détection d’activités réseau suspectes dans les logs Linux
+# LAB – Détection d’activités réseau suspectes dans les logs Linux
 
 ## Objectifs pédagogiques
 
